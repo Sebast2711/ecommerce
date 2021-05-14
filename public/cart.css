@@ -1,0 +1,14 @@
+.btn-block {
+    margin: 1em 0px;
+}
+
+.btn-update-quantity {
+    width: 40px;
+    border-radius: 5px;
+    margin-left: 1em;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}

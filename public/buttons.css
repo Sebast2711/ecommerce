@@ -1,0 +1,76 @@
+/* Buttons colours from https://gradientbuttons.colorion.co/ */
+
+
+.btn-delete {
+    background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%);
+}    
+
+.btn-update {
+    background-image: linear-gradient(to right, #f46b45 0%, #eea849  51%, #f46b45  100%);
+}
+
+.btn-validate {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+}
+
+.btn-showProduct, .btn-buyProduct, .btn-product {
+    background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+}
+
+
+
+/* Boutons de la navbar et des formulaires */
+
+.btn-signup {
+    background-image: linear-gradient(to right, #0575E6 0%, #021B79  51%, #0575E6  100%);
+}
+
+.btn-login {
+    background-image: linear-gradient(to right, #6190E8 0%, #A7BFE8  51%, #6190E8  100%);
+}
+
+nav .buttons .btn{
+    box-shadow: none !important;
+    margin-left: 0.5em;
+}
+
+
+
+/* Style général pour les boutons */
+.btn {
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+}
+.btn-block{
+    width: 100%;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:hover{
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none !important;
+}
+
+
+
+
+
+
+/* Boutons du tableau */
+
+td .btn{
+    display: block;
+    margin-bottom: 0.5em;
+    width: 150px;
+}
+
+td a {
+    text-decoration: none !important;
+}
+

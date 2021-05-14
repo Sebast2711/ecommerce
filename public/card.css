@@ -1,0 +1,56 @@
+/* Fichier Spécial pour la présentation sous forme de cartes */
+
+/* Cartes */
+.cards-grp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 1em;
+}
+
+@media (max-width:575px){
+    .cards-grp {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width:576px) and (max-width:991px){
+    .cards-grp {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (min-width:992px) and (max-width:1199px){
+    .cards-grp {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+.card {
+    margin: 1em 0.5em ;
+}
+
+/* Images */
+.card img {
+    width: 70%;
+    height: 125px;
+}
+.card-image {
+    margin: 1em;
+}
+
+
+/* Boutons */
+
+.card a .btn {
+    width: 90%;
+    margin:  1em auto;
+}
+
+.productDetailBtn {
+    text-decoration: none !important;
+}
+
+
+
